@@ -17,6 +17,6 @@ https://github.com/dmauro/Keypress/
 slighlty changed with key codes from
 https://github.com/wesbos/keycodes/blob/gh-pages/scripts.js
 
-## Usefull resources:
+## Useful resources:
 https://blog.checklyhq.com/creating-a-chrome-extension-in-2018-the-good-the-bad-and-the-meh/  
 https://developer.chrome.com/extensions/devguide

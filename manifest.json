@@ -1,0 +1,31 @@
+{
+  "name": "Ultimate Guitar Scroll Fix",
+  "version": "1.0",
+  "description": "Fixes scroll issues on Ultimate guitar.com",
+  "permissions": [
+    "activeTab",
+    "declarativeContent", "https://tabs.ultimate-guitar.com/**",
+    "storage"
+  ],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/Mediator16.png",
+      "32": "images/Mediator32.png",
+      "48": "images/Mediator48.png",
+      "128": "images/Mediator128.png"
+    }
+  },
+  "icons": {
+    "16": "images/Mediator16.png",
+    "32": "images/Mediator32.png",
+    "48": "images/Mediator48.png",
+    "128": "images/Mediator128.png"
+  },
+  "manifest_version": 2
+}

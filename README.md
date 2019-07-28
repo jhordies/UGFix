@@ -1,5 +1,5 @@
 # UGFix
-Unofficial Ulitmate Guitar .com Chrome extension
+Unofficial Ultimate Guitar .com Chrome extension
 Frustrated that the autoscroll of ultime guitar .com didn't work consistently on my different browsers and curious to experiment with Chrome extensions 
 I decided to start this little experiment. 
 I didn't plan on sharing it but because it seems that I'm not the only one facing this issue (see: https://www.ultimate-guitar.com/forum/showthread.php?t=1774374),

@@ -44,6 +44,20 @@ function findElementWithText(tagname, text) {
     return found;
 }
 
+function findLink(link) {
+    var aTags = document.getElementsByTagName('a');
+    var searchText = link;
+    var found;
+
+    for (var i = 0; i < aTags.length; i++) {
+        if (aTags[i].href == searchText) {
+            found = aTags[i];
+            break;
+        }
+    }
+    return found;
+}
+
 function hideToolbox() {
     var found = findElementWithText("span","Autoscroll");
     if(shouldHideToolBox && found) {
@@ -56,7 +70,7 @@ function hideToolbox() {
 }
 
 function hideLeftBanner() {
-    var found = findElementWithText("header","MORE VERSIONS");
+    var found = findLink("https://www.ultimate-guitar.com/user/mytabs");
     if(shouldHideLeftBanner && found) {
         found.parentNode.parentNode.parentNode.parentNode.style.display = "none";
     }
